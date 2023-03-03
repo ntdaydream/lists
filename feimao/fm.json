@@ -1,8 +1,14 @@
 {
+  //影视资源站点
   "sites":[]
-  "lives":
-  "parse":
   
+  //直播
+  "lives":
+  
+  //解析
+  "parses":
+  
+  //广告过滤
   "ads":
   [    
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",    
@@ -66,6 +72,9 @@
     "cms.qdwght.com"  
   ]
 
+  //壁纸
   "wallpaper":""
+
+  //爬虫jar包
   "spider":
 }
