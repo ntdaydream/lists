@@ -4,6 +4,28 @@
   
   //直播
   "lives":
+   [    
+      {      
+        "group": "redirect",      
+        "channels": 
+        [        
+          {          
+            "name": "redirect",          
+            "urls": 
+            [            
+              "proxy://do=live&type=txt&ext=./tvzb.txt"          
+            ]        
+          }      
+        ]    
+      },    
+      
+      {      
+        "name": "live",      
+        "url": "./tvzb.txt",      
+        "type": 0,      
+        "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",      
+        "ua": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36"    
+      }  ]
   
   //解析
   "parses":
@@ -76,5 +98,5 @@
   "wallpaper":""
 
   //爬虫jar包
-  "spider":
+  "spider":"./panda230222.jar;md5;6fdffe9b74ae6fa85d5858a2bd9fb6b9"
 }
