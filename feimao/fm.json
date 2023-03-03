@@ -1,6 +1,20 @@
 {
   //影视资源站点
-  "sites":[]
+  "sites":
+  [
+    {      
+      "key": "js豆瓣",      
+      "name": "🐼┃豆瓣┃免费接口",      
+      "type": 3,      
+      "api": "./js/drpy.min.js",      
+      "ext": "./js/js_drpy.js",      
+      "searchable": 0,      
+      "quickSearch": 0,      
+      "filterable": 0    
+    }, 
+    
+    
+  ]
   
   //直播
   "lives":
